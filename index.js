@@ -1,3 +1,17 @@
+onload(newUser())
+
+function newUser() {
+  let text;
+  let user = prompt("Please enter your name:");
+  if (user == null || user == "") {
+    text = "Hello anonymous, welcome!";
+  } else {
+    text = "Hello " + user + "! Welcome!"
+  }
+  document.getElementById("user").innerHTML = text;
+}
+
+
 let today = new Date();
 let day = today.getDay();
 const daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
