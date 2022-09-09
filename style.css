@@ -1,4 +1,46 @@
-body {
-    background-color: aqua;
-    color: black;
+body, html {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg-mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
 }
+
+
+h1 {
+    text-align: center;
+    color: rgb(38, 38, 38);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em
+}
+
+button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#day {
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+    margin: 0%;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#time {
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
